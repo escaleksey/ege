@@ -14,7 +14,7 @@ def f(n):
 
 
 c = 0
-for n in range(40, 120):
+for n in range(40, 121):
     b = f(n)
     if (b > 60) and (b <= 240):
         print(b)
